@@ -12,7 +12,6 @@ The system is tested in two environments: simulation using SUMO (Simulation of U
 ---
 
 ## 📂 Project Structure
-'''pgsql
 smart-traffic-light/
 ├── code/ # Python scripts for detection and control
 │ ├── detect_and_control.py
@@ -66,16 +65,13 @@ git clone https://github.com/yourusername/smart-traffic-light.git
 cd smart-traffic-light
 
 ### ✅ 2. Install Python Requirements
-```bash
 pip install -r requirements.txt
 
 ### ✅ 3. Run the Detection & Control Code
-```bash
 cd code
 python detect_and_control.py
 
 ### ✅ 4. Run SUMO Simulation
-```bash
 sumo-gui sumo/traffic_simulation.sumocfg
 
 ### ✅ 5. Run Flask Server on Raspberrypi
