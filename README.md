@@ -12,6 +12,7 @@ The system is tested in two environments: simulation using SUMO (Simulation of U
 ---
 
 ## 📂 Project Structure
+```plaintext
 smart-traffic-light/
 ├── code/ # Python scripts for detection and control
 │ ├── detect_and_control.py
@@ -28,7 +29,7 @@ smart-traffic-light/
 └── README.md # Project documentation
 
 
----
+```
 
 ## 🧠 Features
 
