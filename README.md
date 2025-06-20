@@ -63,19 +63,28 @@ smart-traffic-light/
 ```bash
 git clone https://github.com/yourusername/smart-traffic-light.git
 cd smart-traffic-light
+```
 
 ### ✅ 2. Install Python Requirements
+```
 pip install -r requirements.txt
+```
 
 ### ✅ 3. Run the Detection & Control Code
+```
 cd code
 python detect_and_control.py
+```
 
 ### ✅ 4. Run SUMO Simulation
+```
 sumo-gui sumo/traffic_simulation.sumocfg
+```
 
 ### ✅ 5. Run Flask Server on Raspberrypi
+```
 python flask_server.py
+```
 
 For questions or feedback, please contact:
 📧 [naamin233@gmail.com]
