@@ -12,7 +12,7 @@ The system is tested in two environments: simulation using SUMO (Simulation of U
 ---
 
 ## 📂 Project Structure
-
+'''pgsql
 smart-traffic-light/
 ├── code/ # Python scripts for detection and control
 │ ├── detect_and_control.py
