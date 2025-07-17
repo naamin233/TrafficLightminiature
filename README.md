@@ -22,8 +22,7 @@ smart-traffic-light/
 │ ├── network.net.xml
 │ └── route.rou.xml
 ├── schematic/ # Circuit diagrams (PNG, PDF, Fritzing)
-├── dataset/ # Images and annotations for training
-├── models/ # YOLOv5, YOLOv8, YOLOv11 trained weights
+├── models/ # YOLOv8, YOLOv11 trained weights
 ├── results/ # Screenshots, performance metrics, test logs
 ├── requirements.txt # Python dependencies
 └── README.md # Project documentation
