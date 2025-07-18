@@ -5,7 +5,7 @@ import numpy as np
 from ultralytics import solutions
 
 # --- Config ---
-RASPBERRY_PI_URL = 'http://10.206.110.252:5000/set_pin' # Can change based on the http://<RaspberryIpAddress>:5000/set_pin
+RASPBERRY_PI_URL = 'http://10.206.110.252:5000/set_pin' # change this based on the http://<RaspberryIpAddress>:5000/set_pin ----1
 GREEN_TIME_PER_CAR = 2  # seconds
 MAX_GREEN_TIME = 4     # max green light duration
 
@@ -21,7 +21,7 @@ region_points = {
     "Region-2": [(459, 260), (639, 255), (638, 371), (458, 369)],
     "Region-3": [(346, 2), (449, 2), (452, 138), (342, 135)],
     "Region-4": [(5, 135), (224, 133), (216, 240), (3, 241)],
-}
+} # ------Input region from region coordinator -----2
 
 # --- Helper Functions ---
 def all_red():
